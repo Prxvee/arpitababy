@@ -4,55 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy Valentine's Day, Arpita 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Rose Floating Animation -->
-  <img src="rose.png" class="rose-animation" alt="Rose">
+  <div class="container">
+    <!-- Rose Floating Animation -->
+    <img src="rose.png" class="rose-animation" alt="Rose">
 
-  <!-- Heart Floating Animation -->
-  <div class="heart-container">
-    <div class="heart heart1"></div>
-    <div class="heart heart2"></div>
-    <div class="heart heart3"></div>
-  </div>
+    <!-- Heart Floating Animation -->
+    <div class="heart-container">
+      <div class="heart heart1"></div>
+      <div class="heart heart2"></div>
+      <div class="heart heart3"></div>
+    </div>
 
-  <!-- Photos of You and Arpita -->
-  <div class="photos">
-    <img src="photo1.jpg" alt="Photo 1" class="photo">
-    <img src="photo2.jpg" alt="Photo 2" class="photo">
-    <img src="photo3.jpg" alt="Photo 3" class="photo">
-  </div>
+    <!-- Photos of You and Arpita -->
+    <div class="photos">
+      <img src="photo1.jpg" alt="Photo 1" class="photo">
+      <img src="photo2.jpg" alt="Photo 2" class="photo">
+      <img src="photo3.jpg" alt="Photo 3" class="photo">
+    </div>
 
-  <!-- Poetic Message -->
-  <div class="message">
-    <h1>Happy Valentine's Day, Arpita 💖</h1>
-    <p>
-      "I feel like your first love, and in a way, it feels like I’ve always known you. You bring a warmth into my life that’s irreplaceable, Arpita. Every moment with you is a moment I cherish, and I can’t imagine life without you by my side. You are the woman I always wanted around me. The love I have for you is unexplainable. Forever and always, you’re my Gudul, and I’m lucky to have you."
-    </p>
-    <p>
-      "I LOVE YOU VM, GUDUL ARPITAAAAA BABYYY!"
-    </p>
-  </div>
+    <!-- Poetic Message -->
+    <div class="message">
+      <h1>Happy Valentine's Day, Arpita 💖</h1>
+      <p>
+        "I feel like your first love, and in a way, it feels like I’ve always known you. You bring a warmth into my life that’s irreplaceable, Arpita. Every moment with you is a moment I cherish, and I can’t imagine life without you by my side. You are the woman I always wanted around me. The love I have for you is unexplainable. Forever and always, you’re my Gudul, and I’m lucky to have you."
+      </p>
+      <p>
+        "I LOVE YOU VM, GUDUL ARPITAAAAA BABYYY!"
+      </p>
+    </div>
 
-  <!-- Interactive Questions Section -->
-  <div class="questions">
-    <h2>Answer the questions, my love:</h2>
-    <form>
-      <label for="love">1. What is the thing that you love about me?</label><br>
-      <textarea id="love" name="love" rows="4" cols="50"></textarea><br><br>
+    <!-- Interactive Questions Section -->
+    <div class="questions">
+      <h2>Answer the questions, my love:</h2>
+      <form>
+        <label for="love">1. What is the thing that you love about me?</label><br>
+        <textarea id="love" name="love" rows="4" cols="50"></textarea><br><br>
 
-      <label for="gudul">2. Who is my Gudul?</label><br>
-      <textarea id="gudul" name="gudul" rows="4" cols="50"></textarea><br><br>
+        <label for="gudul">2. Who is my Gudul?</label><br>
+        <textarea id="gudul" name="gudul" rows="4" cols="50"></textarea><br><br>
 
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
 
-  <!-- Special Message and Animation of Lays Chips Packet -->
-  <div class="final-message">
-    <h3>Here is a Lays I bought for you 🍟</h3>
-    <img src="lays.png" class="lays-animation" alt="Lays Chips">
+    <!-- Special Message and Animation of Lays Chips Packet -->
+    <div class="final-message">
+      <h3>Here is a Lays I bought for you 🍟</h3>
+      <img src="lays.png" class="lays-animation" alt="Lays Chips">
+    </div>
+
+    <!-- Additional Buttons -->
+    <div class="button-group">
+      <button class="btn">Click Here</button>
+      <button class="btn">Yes</button>
+      <button class="btn">Another Surprise</button>
+    </div>
   </div>
 
   <!-- Background Music -->
@@ -63,3 +73,41 @@
 
 </body>
 </html>
+
+<style>
+  body {
+    background: linear-gradient(to right, #f8c1d9, #fff1f7);
+    background-image: url('https://source.unsplash.com/1600x900/?stars,moon');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0;
+    color: #5a5a5a;
+  }
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .btn {
+    background: #ff8ba7;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+  .btn:hover {
+    background: #e47d99;
+  }
+</style>
